@@ -1,5 +1,8 @@
 # blog-website
 This is a Web Application written using Node.JS/Express.js for blog posting!
+![Screenshot from 2024-02-11 15-44-50](https://github.com/pinkozz/blog-website/assets/136079534/0f0877a5-4434-48df-97b5-47a6418ae372)
+![Screenshot from 2024-02-11 15-45-00](https://github.com/pinkozz/blog-website/assets/136079534/e8a22923-2fb8-4430-b6b6-6e0cfee6c47e)
+![Screenshot from 2024-02-11 15-45-08](https://github.com/pinkozz/blog-website/assets/136079534/bb553e0e-9c87-4c75-a14d-9a9ec30274c4)
 
 # Table of contents
 • [Features](https://github.com/pinkozz/blog-website#features)
@@ -7,6 +10,7 @@ This is a Web Application written using Node.JS/Express.js for blog posting!
 • [Installation](https://github.com/pinkozz/blog-website#installation)
 
 • [Usage](https://github.com/pinkozz/blog-website#usage)
+
 
 • [Contributing](https://github.com/pinkozz/blog-website#contributing)
 
