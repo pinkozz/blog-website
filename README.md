@@ -1,5 +1,5 @@
 # blog-website
-This is a Web Application written using Node.JS/Express.js for blog posting!
+This is a Web Application written using Node.JS, Express.js, PostgreSQL for blog posting!
 ![Screenshot from 2024-02-11 15-44-50](https://github.com/pinkozz/blog-website/assets/136079534/0f0877a5-4434-48df-97b5-47a6418ae372)
 ![Screenshot from 2024-02-11 15-45-00](https://github.com/pinkozz/blog-website/assets/136079534/e8a22923-2fb8-4430-b6b6-6e0cfee6c47e)
 ![Screenshot from 2024-02-11 15-45-08](https://github.com/pinkozz/blog-website/assets/136079534/bb553e0e-9c87-4c75-a14d-9a9ec30274c4)
@@ -24,7 +24,7 @@ This is a Web Application written using Node.JS/Express.js for blog posting!
 • Easy-to-use and extandable codebase
 
 # Installation
-*!! To run this application successfully, you must have Node.JS installed on your local machine !!*
+*!! To run this application successfully, you must have Node.JS and PostgreSQL installed on your local machine !!*
 
 1. Clone this repository to your local machine using this command:
    
@@ -42,7 +42,19 @@ This is a Web Application written using Node.JS/Express.js for blog posting!
    npm i
    ```
 
-4. Run the application:
+4. Open index.js and change following lines of code so the configuration matches your actual database settings
+   ```code
+   const db = new pg.Client({
+     user: "postgres",
+     host: "localhost",
+     database: "blog",
+     password: "postgres",
+     port: 5432,
+   });
+   ```
+5. Run the query from create_table.sql in your PostgreSQL environment
+
+6. Run the application:
 
    ```shell
    node index.js
