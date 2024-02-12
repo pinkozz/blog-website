@@ -85,13 +85,11 @@ app.get("/new", (req, res) => {
   res.render('edit.ejs');
 });
 
-
 // Get a post by id
 app.get("/:id", (req, res) => {
   const post = posts.find((post) => post.id === parseInt(req.params.id));
   res.render('edit.ejs', {post: post});
 });
-
 
 // 2. Add new post
 app.post("/post", (req, res) => {
