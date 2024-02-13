@@ -42,7 +42,9 @@ This is a Web Application written using Node.JS, Express.js, PostgreSQL for blog
    npm i
    ```
 
-4. Open index.js and change following lines of code so the configuration matches your actual database settings
+4. Create the "blog" PostgreSQL database.
+
+5. Open index.js and change following lines of code so the configuration matches your actual database settings
    ```code
    const db = new pg.Client({
      user: "postgres",
@@ -52,9 +54,9 @@ This is a Web Application written using Node.JS, Express.js, PostgreSQL for blog
      port: 5432,
    });
    ```
-5. Run the query from create_table.sql in your PostgreSQL environment
+6. Run the query from create_table.sql in your PostgreSQL environment
 
-6. Run the application:
+7. Run the application:
 
    ```shell
    node index.js
