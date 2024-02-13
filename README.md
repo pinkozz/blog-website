@@ -19,11 +19,11 @@ This is a Web Application written using Node.JS, Express.js, PostgreSQL for blog
 # Features
 • User friendly interactions through a Web Browser
 
-• Post Creation: Users should be able to create new posts.
+• Post Creation: Users are be able to create new posts.
 
-• Post Viewing: The home page should allow the user to view all their posts.
+• Post Viewing: The home page allows the user to view all their posts.
 
-• Post Update/Delete: Users should be edit and delete posts as needed.
+• Post Update/Delete: Users are able to edit and delete posts as needed.
 
 • Easy-to-use and extandable codebase
 
