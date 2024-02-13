@@ -11,7 +11,6 @@ This is a Web Application written using Node.JS, Express.js, PostgreSQL for blog
 
 • [Usage](https://github.com/pinkozz/blog-website#usage)
 
-
 • [Contributing](https://github.com/pinkozz/blog-website#contributing)
 
 • [License](https://github.com/pinkozz/blog-website#license)
@@ -70,7 +69,7 @@ This is a Web Application written using Node.JS, Express.js, PostgreSQL for blog
 Once the Web App is up and running, users can interact with it through preferred Web Browser. The Blog Website allows user to view posts, add new, delete and edit existing ones! 
 
 # Contributing
-Contributions to the Blog Website Bot are welcome! If you'd like to contribute, please follow these steps:
+Contributions to the Blog Website are welcome! If you'd like to contribute, please follow these steps:
 
 1. Fork the repository on GitHub.
 2. Clone your forked repository to your local machine.
